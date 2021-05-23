@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My name is Anushan, and welcome to my portfolio page!">
+    <meta name="author" content="Anushan Ragunathan">
+    <meta name="keywords" content="Anushan Ragunathan, Anushans portfolio, Anushan Ragunathan Full Stack Developer">
+
+    <title>Anushan's Portfolio Page</title>
+</head>
+
+<body>
+    <!-- table can be used to structure the layout of the page as well  -->
+
+    <!-- cellspacing attribute not to be used anymore as CSS has taken overß -->
+    <table cellspacing=100px>
+        <!-- 1 table created, with 1 row and 2 <td> tags to spearate the content  -->
+        <tr>
+            <td>
+                <!-- Image element added with alt(alternatice text) used to describe the image in case image fails to load- also assists with SEO optimization -->
+                <img src="Images/circle-cropped.png" height="200px" width="200px"
+                    alt="This is a GOAT , Greatest of all time!">
+            </td>
+            <td>
+                <!-- h1 tag containing the name  -->
+                <h1> Anushan Ragunathan </h1>
+                <!-- <i> is the same as <em> , however emphasis is best pracrtice to use as it conveys structure (same with <str> & <b> -->
+                <p><em>Looking for a <strong>Full Stack Developer</strong> position</em></p>
+
+                <p> I am a Full Stack Developer looking for a entry level position</p>
+            </td>
+        </tr>
+    </table>
+
+
+
+    <hr noshade>
+
+    <!-- EDUCATION -->
+
+    <h3>Education</h3>
+    <p><strong>Ryerson University</strong></p>
+    <!-- A a href [anchor (hyperlinkr reference)] tag with a redirect link to ryersons cs program  (opens in the same browser, no target blank attribute set)-->
+    <a href="https://www.ryerson.ca/cs/"> <em>Computer Science</em></a>
+    <p>Courses Taken </p>
+
+    <!-- this is a unordered list -->
+    <ul>
+        <li><em>CCPS213</em> Computer Organization</li>
+        <li><em>P2021</em> Political Film</li>
+    </ul>
+
+    <hr noshade>
+    <!-- MY HOBBIES -->
+
+    <h3>My Hobbies </h3>
+    <!-- This is a ordered list -->
+    <!-- the type attribue was added to change formating style to roman numerals -->
+    <ol type="1">
+        <li>Working Out</li>
+        <li>Working on my car</li>
+        <li>Coding!</li>
+    </ol>
+
+    <hr noshade>
+    <!-- WORK EXPERIENCE -->
+    <h3> Work Experience</h3>
+    <!-- This line is for the table layout -->
+    <table cellspacing = "10px">
+        <!-- table tag can be structered ie head,body footer -->
+        <!-- table header tag -->
+        <thead>
+            <!-- Special table heading tag that allows for headers to be emphasized -->
+            <th>Year</th>
+            <th>Position</th>
+            <!-- a <tr> tag stands for table row -->
+            <tr>
+                <!-- <td> tag stands table data cell, if you want to have multiple collumsn(verttical) adjust by adding more <td> tags -->
+                <td>2019</td>
+                <td>Back End Support At TireConnect</td>
+            </tr>
+        </thead>
+        <!-- table body tag -->
+        <tbody>
+            <!-- the bottom is the code for one table row  -->
+            <tr>
+                <td>2018-2019</td>
+                <td>Discount Car and Turck Rental</td>
+
+            </tr>
+        </tbody>
+        <!-- Footer Table is also an available option  -->
+        <!-- <tfooter> -->
+
+        <!-- </tfooter> -->
+    </table>
+    <hr noshade>
+
+    <!-- code challenge -->
+
+    <!-- SKILLS  -->
+
+    <h3>Skills</h3>
+    <!-- The main table tag -->
+    <table  cellspacing ="10px" >
+        <!-- The main table row -->
+        <tr>
+            <!-- td cell for left hand side data (column 1) -->
+            <td>
+                <!-- table tag for info in the left section -->
+                <table>
+                    <!-- each individual rows nested within the table (row 1 IE HTML + rating) -->
+                    <tr>
+                        <!--  data cell for the skill -->
+                        <td>HTML</td>
+                        <!--  data cell for the rating -->
+                        <td>⭐⭐⭐⭐⭐</td>
+                    </tr>
+                    <!-- each individual rows nested within the table (row 2 IE CSS + rating -->
+                    <tr>
+                        <td>CSS</td>
+                        <td>⭐⭐⭐⭐</td>
+                    </tr>
+                </table>
+            </td>
+
+
+            <!-- td cell for right hand side data (column 2) -->
+            <td>
+                <table>
+                    <tr>
+                        <td>Javascript</td>
+                        <td>⭐⭐</td>
+                    </tr>
+                    <tr>
+                        <td>React </td>
+                        <td>⭐</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+
+
+
+    </table>
+
+    <hr noshade>
+
+    <!-- CONTACT ME  -->
+    <!-- This sectiion designated for anchor tags  a external page redirect -->
+    <h3>Contact Me!</h3>
+    <p><a href="contact-me.html"> Click here</a> to get in touch </p>
+
+
+</body>
+
+
+
+</html>
